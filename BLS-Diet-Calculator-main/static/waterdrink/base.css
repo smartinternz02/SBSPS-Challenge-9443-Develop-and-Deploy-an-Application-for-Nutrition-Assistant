@@ -1,0 +1,38 @@
+body{
+    background-color: slategray;
+    text-align: center;
+}
+p{
+    color:white;
+    font: Shanti;
+    font-size: 1.2rem;
+    margin: 20px;
+
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border: none; 
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+#greet{
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: bisque;
+    width: 200px;
+
+}
+#greet:hover{
+    background-color: mediumvioletred;
+    cursor: pointer;
+}
+.navbar-expand .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
